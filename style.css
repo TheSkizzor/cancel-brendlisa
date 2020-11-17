@@ -1,6 +1,7 @@
 * {
 	cursor: url(./img/cursor.png), auto;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -55,7 +56,6 @@ body {
 	color: white;
 	font-size: 2.5vh;
 	font-family: 'Titillium Web', sans-serif;
-	filter: blur(0.01em);
 	transition-duration: 500ms;
 }
 .nav-link:hover {
